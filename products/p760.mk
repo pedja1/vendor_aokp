@@ -31,6 +31,6 @@ UTC_DATE := $(shell date +%s)
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=${UTC_DATE}\
 
 # Enable Torch
-PRODUCT_PACKAGES += Torch \ Apollo
+PRODUCT_PACKAGES += Torch \ Apollo \ LockClock
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/bootanimation/bootanimation_540.zip:system/media/bootanimation.zip
